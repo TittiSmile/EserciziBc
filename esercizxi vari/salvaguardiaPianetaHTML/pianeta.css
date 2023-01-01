@@ -1,0 +1,41 @@
+body{
+    width: 660px;
+    background-color: beige;
+}
+
+.titoloPrincipale{
+    color: green;
+}
+
+.header1 img{
+    float: left;
+    text-indent: 100px;
+}
+
+.header1 input[type="search"]{
+    float: center;
+    padding: 5px;
+}
+
+.documentoCalce{
+    color: green;
+}
+
+.mareInquinato{
+    float:left;
+}
+
+h1{
+    text-align: center;
+}
+
+.paginaFondo{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.profilo{
+    color: green;
+    text-align: center;
+}

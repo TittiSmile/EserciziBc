@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--per inserire  uno script JS si usa il seguente tag dentro un documento HTML-->
+    <script>
+        //adesso siamo in una parte di documento JS quindi i commenti saranno come in java...
+        let a = 10; //let è per le dichiarazioni delle variabili... posso usare anche var e const
+        //console.log(a); //sulla pagina web, se faccio ispeziona elemento -> console, mi esce a
+        console.log(a);
+        alert("valore di a: " + a);   //quando aprirò la pagina uscirà un pop-up col valore di a. + serve a concatenare il valore di a   
+    </script>
+
+    <script>
+        function prova(){
+            let a = 41;
+            if(a>30){
+                alert("a è maggiore di 30");
+            }
+        }
+    </script>
+
+    <button onclick="prova()">Clicca per la funzione di prova</button>
+
+
+
+</body>
+</html>

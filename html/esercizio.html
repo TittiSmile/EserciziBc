@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Esercizio pag 105</title>
+</head>
+<body>
+
+<form>
+  <h3>anagrafica:</h3>
+  <input type="text" name="nameField" placeholder="Nome"> <br>
+  <input type="text" name="surnameField" placeholder="Cognome"> <br>
+  <label for="female">Femmina:</label>
+  <input type="radio" id="female" name="sexField" >
+  <label for="male">Maschio:</label>
+  <input type="radio" id="male" name="sexField" > <!--se metto l'id viene messo come UNIVOCO (o M o F)--> <br>
+
+  <h3>hobbie:</h3>
+  <input type="checkbox" name="checkBox" id="cucinare">
+  <label for="cucinare">Cucinare</label> <br>
+  <input type="checkbox" name="checkBox" id="sport">
+  <label for="sport">sport</label><br>
+  <input type="checkbox" name="checkBox" id="suonare">
+  <label for="suonare">suonare</label> <br>
+
+  <h3>regione residenza (menu a tendina):</h3>
+   <select name=“InputSelect”>
+  <option value=“1”>Campania</option>
+  <option value=“2”>Altro</option>
+  </select>
+
+  <h3>lascia un commento (testo)</h3>
+  <textarea name="areaDiTesto" rows="10" cols="40" placeholder="Puoi scrivere un commento...">  </textarea>
+
+
+  <h3>ecco un'immagine:</h3>
+  <img src="img.png" alt="mare" style="width:25%">
+
+  <h3>carica un file:</h3>
+  <input type="file" name="fileUpload">
+  <input type="submit">
+
+  <h3>bottone regisrtati:</h3>
+  <!-- <button name="registrati" type="submit" >Registrati</button> -->
+  <input type="submit" value="Registrati">
+  
+
+
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+# funzione funzionale filter

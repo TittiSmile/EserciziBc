@@ -1,0 +1,10 @@
+leone
+zebra
+tigre
+gatto
+cane
+criceto
+asino
+cavallo
+mucca
+topo

@@ -1,0 +1,11 @@
+tabella:
+cane
+casa
+pane
+frutta
+cellulare
+computer
+candela
+tv
+quadro
+gatto

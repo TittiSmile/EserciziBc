@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione</title>
+    <link rel="stylesheet" href="pianeta.css" type="text/css">
+    <script type="text/javascript" src="pianeta.js"></script>
+</head>
+<body>
+  <h1>Registrati</h1>
+
+  <fieldset>
+    <form action="" method="post" name="registrazione" onsubmit="return validaRegistrazione()">
+     
+      <input type="text" name="nameField" placeholder="Nome"> <br> <br>
+      <input type="text" name="surnameField" placeholder="Cognome"> <br><br>
+      <input type="text" name="usernameField" placeholder="Username"> <br><br>
+      <input type="text" name="emailField" placeholder="e-mail"> <br><br>
+      <input type="password" name="passwordField" placeholder="password"> <br> <br>
+  
+      <label for="female">Femmina:</label>
+      <input type="radio" id="female" name="sexField" >
+      <label for="male">Maschio:</label>
+      <input type="radio" id="male" name="sexField" > <br> <br>
+  
+      <h4>Hobbie:</h4>
+      <input type="checkbox" name="checkBox" id="cucinare">
+      <label for="cucinare">Cucinare</label> <br>
+      <input type="checkbox" name="checkBox" id="sport">
+      <label for="sport">Sport</label><br>
+      <input type="checkbox" name="checkBox" id="suonare">
+      <label for="suonare">Suonare</label> <br>
+      <input type="checkbox" name="checkBox" id="videogiochi">
+      <label for="suonare">Videogiochi</label> <br> <br> <br>
+  
+      <input type="submit" value="Registrati">
+      </form>
+
+</body>
+</html>
